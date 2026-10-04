@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "revision": "2026-10-05.1",
+  "categories": [
+    {
+      "id": "weekend",
+      "name": { "en": "Weekend", "tr": "Hafta Sonu" },
+      "sub": { "en": "plans that never go to plan", "tr": "planların karıştığı anlar" },
+      "pairs": {
+        "en": [
+          { "primary": "Brunch", "secondary": "Breakfast", "difficulty": "easy" },
+          { "primary": "Road trip", "secondary": "Day trip", "difficulty": "easy" },
+          { "primary": "Picnic", "secondary": "Barbecue", "difficulty": "easy" },
+          { "primary": "House party", "secondary": "Dinner party", "difficulty": "medium" },
+          { "primary": "Camping", "secondary": "Glamping", "difficulty": "medium" },
+          { "primary": "Flea market", "secondary": "Farmers market", "difficulty": "medium" },
+          { "primary": "Movie marathon", "secondary": "Binge watching", "difficulty": "hard" },
+          { "primary": "Sleep in", "secondary": "Power nap", "difficulty": "hard" }
+        ],
+        "tr": [
+          { "primary": "Brunch", "secondary": "Kahvaltı", "difficulty": "easy" },
+          { "primary": "Yol gezisi", "secondary": "Günübirlik gezi", "difficulty": "easy" },
+          { "primary": "Piknik", "secondary": "Mangal", "difficulty": "easy" },
+          { "primary": "Ev partisi", "secondary": "Akşam yemeği", "difficulty": "medium" },
+          { "primary": "Kamp", "secondary": "Bungalov", "difficulty": "medium" },
+          { "primary": "Bit pazarı", "secondary": "Semt pazarı", "difficulty": "medium" },
+          { "primary": "Film maratonu", "secondary": "Dizi maratonu", "difficulty": "hard" },
+          { "primary": "Geç uyanmak", "secondary": "Şekerleme", "difficulty": "hard" }
+        ]
+      }
+    }
+  ],
+  "packs": [
+    {
+      "id": "weekend-plans",
+      "tier": "owned",
+      "categories": ["weekend"],
+      "name": { "en": "Weekend Plans", "tr": "Hafta Sonu Planları" },
+      "sub": { "en": "it sounded better in the group chat", "tr": "grup sohbetinde daha iyi görünüyordu" }
+    }
+  ]
+}
